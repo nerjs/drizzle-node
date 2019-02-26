@@ -15,5 +15,5 @@ const createDrizzleWrapper = customDrizzle => {
     return DrizzleWrapper
 }
 
-module.exports = createDrizzleWrapper(Drizzle)
-module.exports.createDrizzleWrapper = createDrizzleWrapper
+exports.Drizzle = createDrizzleWrapper(Drizzle)
+exports.createDrizzleWrapper = createDrizzleWrapper
